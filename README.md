@@ -1,29 +1,44 @@
-# Savvy Coders Project Boilerplate Starter Kit
+<img align="right" src="https://visitor-badge.laobi.icu/badge?page_id=GavinHouston.GavinHouston" />
 
-## Overview
+<h1 align="center">
+    <img src="https://readme-typing-svg.herokuapp.com/?font=Righteous&size=35&center=true&vCenter=true&width=500&height=70&duration=4000&lines=Hi+There!+👋;+I'm+Anthony+Ingargiola!;" />
+</h1>
 
-This template repository contains several opinionated, 'starter' files and settings to help Savvy Coder students focus more time and energy on learning how to code and/or craft 'business logic' for projects and less time on configurations.
+<h3 align="center">A passionate software quality engineer lead from St. Louis</h3>
 
-In addition to a '.gitignore' and some VS Code specific extensions and settings, it includes the 'recommended' settings for:
+<br/>
 
-1. [ESLint](eslint.org)
-2. [Stylelint](stylelint.io)
-3. [Prettier](prettier.io)
+<div align="center">
+ 
+ 🔭 I’m currently working on **a sofware development team**
+ 
+ 🌱 I’m currently learning **sql, Python, AWS**
 
-## Get Started
+💬 Ask me about **python, bash, or sql... or anything [here](https://github.com/Aingargiola/Learning_coding.git)**
 
-**First and foremost,** make sure that your local machine is set up with all of the 'dev environment tooling' as per the instructions in the curriculum.
+⚡ Fun fact **Lego mini-figures have the largest population on Earth!**
 
-Well, after establishing your directory structure on your local machine, (e.g. '~/Code/SavvyCoders'), clone the Savvy Starter Repo - essentially, there should be a button that says **Use this template.**
+ </div>
+ 
+<div align="center"> 
+  <a href="mailto:aingargiola8@gmail.com">
+    <img src="https://img.shields.io/badge/Gmail-333333?style=for-the-badge&logo=gmail&logoColor=red" />
+  </a>
+  <a href="https://linkedin.com/in/anthony-ingargiola" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank" />
+  </a>
 
-> [Read more about using templates on GitHub here...](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/creating-a-repository-from-a-template)
+  </a>
+</div>
 
-Once this repo has been created on your GitHub, you can click on the button to 'clone' it as usual.
+ <hr/>
+ 
+<h2 align="center">⚒️ Languages-Frameworks-Tools ⚒️</h2>
+<br/>
+<div align="center">
+    <img src="https://skillicons.dev/icons?i=vscode,github,bash,git" />
+    <img src="https://skillicons.dev/icons?i=java,python,mysql,aws,azure" /><br>
+</div>
 
-Once it's `clone`d to your local machine, `cd` into the directory and **be sure to do:** `npm i` to get all of the dependencies installed. If you see any _errors_ (warnings are OK) on Windows, you may have to do `npm install`.
-
-Now, enter `code .` to open this project in VS Code, and look for a prompt to 'install some extensions' once inside VS Code (in the bottom `right` of your screen). You should install these.
-
-In your repo, feel free to update this README and make any other initial changes to files, etc. Then go ahead and do your usual `git` steps -- add, commit, and push.
-
-**Note:** This is a template repository, no need to 'fork it.
+<br/>
+<hr/>
