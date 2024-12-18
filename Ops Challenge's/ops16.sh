@@ -17,22 +17,28 @@
 # * (Multiply)
 #Here are some helpful commands to make this happen.
 
-check_number() {
-  echo "please enter a number between 1 and 10:"
-  read number
+function check_number() {
 
-  if [ "$number" -ge 5 ]; then
-    echo "Your number is grater than 5."
-    echo "Your number is: $number"
-  elif  [ "$number" -le 5 ]; then
+  if [ $1 -gt 5 ]; then
+    echo "Your number is greater than 5."
+  elif  [ $1 -lt 5 ]; then
     echo "Your number is less than 5"
-    echo "Your number is: $number"
-  elif [ "$number" -eq 5 ]; then
+  elif [ $1 -eq 5 ]; then
     echo "Your number is equal to 5"
-    echo "Your number is: $number"
   else
     echo "Please enter a vaild number that is between 1 and 10"
-    echo "You put in: $number"
   fi
+  echo "You Number is: $1"
 }
-check_number
+
+read -p "Enter a number between 1 and 10: " input
+
+while [ true ]; do
+  if [ $input -gt 0 ] && [ $input -lt 11 ]; then
+    break
+  else
+    read -p "Invalid, enter a number between 1 and 10: " input
+  fi
+done
+
+check_number $input
