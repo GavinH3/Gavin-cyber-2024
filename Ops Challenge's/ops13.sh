@@ -21,7 +21,7 @@ echo "what is your number?"
 read number
 if [ $number -ge 2 ] && [ $number -le 5 ]
 then
-  echo "valid number"
+  echo "valid numb "
   echo "your number is $number"
 else
   echo "invalid number"
