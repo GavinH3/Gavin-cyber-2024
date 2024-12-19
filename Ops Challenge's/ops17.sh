@@ -7,7 +7,7 @@
 echo "Listing devices on the network: ..."
 nmap -sn 192.168.1.0/24 | grep "Nmap scan report for" | awk '{print $5}'
 
-echo "Enter an IP adress to ping;"
+echo "Enter an IP adress to ping"
 read ip_address
 
-ping -c 4 "$ip_adress"
+ping -c 5 "$ip_address"
