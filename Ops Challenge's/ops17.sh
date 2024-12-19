@@ -5,9 +5,10 @@
 # We will run the a command that prints all address then ask the user to ping a specific one by entering an ip address.
 
 echo "Listing devices on the network: ..."
-nmap -sn 192.168.1.0/24 | grep "Nmap scan report for" | awk '{print $5}'
+arp -a
 
-echo "Enter an IP adress to ping"
+echo "Enter an IP address to ping"
 read ip_address
 
+echo "pinging your device:"
 ping -c 5 "$ip_address"
