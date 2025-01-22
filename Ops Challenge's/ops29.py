@@ -24,18 +24,18 @@
 
 import requests
 
-# Prompt the user to type a string input for the destination URL
+
 url = input("Enter the destination URL: ")
 
-# Prompt the user to select an HTTP Method from the options
+
 method = input("Choose HTTP Method (GET, POST, PUT, DELETE, HEAD, PATCH, OPTIONS): ").upper()
 
-# Print out the details of the request
+
 print(f"\nYou are about to send the following request:\nURL: {url}\nHTTP Method: {method}")
 confirm = input("Do you confirm this request? (yes/no): ").lower()
 
 if confirm == "yes":
-    # Perform the request based on the method selected
+
     if method == "GET":
         response = requests.get(url)
     elif method == "POST":
@@ -54,7 +54,7 @@ if confirm == "yes":
         print("Invalid HTTP Method.")
         exit(1)
 
-    # Translate the response status code into plain terms
+
     status_codes = {
         200: "OK",
         201: "Created",
@@ -68,11 +68,11 @@ if confirm == "yes":
         503: "Service Unavailable"
     }
 
-    # Print response status code in plain language
+
     status_message = status_codes.get(response.status_code, f"Error: {response.status_code}")
     print(f"Response Status: {status_message}")
 
-    # Print response headers to the screen
+
     print("\nResponse Headers:")
     for key, value in response.headers.items():
         print(f"{key}: {value}")
