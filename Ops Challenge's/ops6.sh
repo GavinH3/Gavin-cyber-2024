@@ -35,7 +35,7 @@ read domain
   nslookup $domain
 
 
-) >file.txt
+) >file2.txt
 
 }
 

@@ -39,7 +39,8 @@ while response not in directions:
         print("You are teleported to a new world. Congratulations, you've completed the quest!")
         quit()
     elif response == "backwards":
-        print( "You are not ready for this quest, Come back when you are ready. Goodbye " + name + ".")
+        print( "goodbye " + name + ".")
         quit()
     else:
         print("I didn't understand that. Please choose again.\n")
+

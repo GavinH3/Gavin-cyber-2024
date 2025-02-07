@@ -22,7 +22,7 @@ Running whois for google.com...
    Name Server: NS4.GOOGLE.COM
    DNSSEC: unsigned
    URL of the ICANN Whois Inaccuracy Complaint Form: https://www.icann.org/wicf/
->>> Last update of whois database: 2025-02-06T00:52:59Z <<<
+>>> Last update of whois database: 2025-02-06T00:53:42Z <<<
 
 For more information on Whois status codes, please visit https://icann.org/epp
 
@@ -143,7 +143,7 @@ Running dig for google.com...
 ; <<>> DiG 9.20.4-3-Debian <<>> google.com
 ;; global options: +cmd
 ;; Got answer:
-;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 8672
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 29102
 ;; flags: qr rd ra; QUERY: 1, ANSWER: 1, AUTHORITY: 0, ADDITIONAL: 1
 
 ;; OPT PSEUDOSECTION:
@@ -152,16 +152,16 @@ Running dig for google.com...
 ;google.com.			IN	A
 
 ;; ANSWER SECTION:
-google.com.		59	IN	A	142.250.190.46
+google.com.		7	IN	A	142.250.190.46
 
-;; Query time: 3 msec
+;; Query time: 0 msec
 ;; SERVER: 192.168.1.1#53(192.168.1.1) (UDP)
-;; WHEN: Wed Feb 05 18:53:06 CST 2025
+;; WHEN: Wed Feb 05 18:53:58 CST 2025
 ;; MSG SIZE  rcvd: 55
 
 Running Host for google.com...
 google.com has address 142.250.190.46
-google.com has IPv6 address 2607:f8b0:4009:804::200e
+google.com has IPv6 address 2607:f8b0:4009:818::200e
 google.com mail is handled by 10 smtp.google.com.
 Running nslookup for google.com...
 Server:		192.168.1.1
@@ -171,5 +171,5 @@ Non-authoritative answer:
 Name:	google.com
 Address: 142.250.190.46
 Name:	google.com
-Address: 2607:f8b0:4009:804::200e
+Address: 2607:f8b0:4009:818::200e
 
