@@ -7,10 +7,10 @@
 cd ~/documents
 echo "files in Documents:"
 ls
-read -p "Create or edit file (name): " filename
-if [ -z "$filename" ]; then
-    echo "No filename provided."
-    exit 1
-fi
-nano "$filename"
+#read -p "Create or edit file (name): " filename
+#if [ -z "$filename" ]; then
+    #echo "No filename provided."
+    #exit 1
+#fi
+#nano "$filename"
 
