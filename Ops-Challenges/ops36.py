@@ -12,20 +12,18 @@
 
 #Write your code below this line 👇
 
-
-
 def split_bill():
 
   bill = float(input("Enter the total bill amount ($): "))
-  tip_percentage = float(input("Enter the tip percentage (15 for 15% tip etc.): "))
-  people = int(input("Enter the number of people: "))
+  tip_percentage = float(input("Enter the tip percentage (15 for 15% tip etc.):"))
+  payees = int(input("Enter the number of payees:"))
 
   total_amount = bill * (1 + tip_percentage / 100)
+  amount_per_payee = total_amount / payees
+  amount_per_payee = round(amount_per_payee, 2)
+  total_bill = round(total_amount, 2)
 
-  amount_per_person = total_amount / people
-
-  amount_per_person = round(amount_per_person, 2)
-
-  print(f"Each person should pay: ${amount_per_person:.2f}")
+  print(f"Each Person should pay: ${amount_per_payee:.2f}")
+  print(f"The Total Bill is: ${total_bill:.2f}")
 
 split_bill()
